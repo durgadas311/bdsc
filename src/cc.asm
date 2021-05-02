@@ -14,11 +14,11 @@ slrmac:	equ false
 lasm:	equ not slrmac
 cpm:	equ true	;if true, for cp/m
 
-zsystem	equ true
+zsystem	equ false
 
 	if not zsystem
 version: equ '6'	;the 'x' in 'v1.x'
-updatn:	equ 0		;the `y' in `v1.xy'	 (number)
+updatn:	equ 1		;the `y' in `v1.xy'	 (number)
 updaty:	equ 0		;the `z' in `v1.xyz', or zero if none (character)
 	endif
 

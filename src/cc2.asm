@@ -8,7 +8,7 @@
 true:	equ 0ffffh
 false:	equ not true
 
-zsystem	equ true
+zsystem	equ false
 slrmac:	equ false
 lasm:	equ not slrmac
 
@@ -20,7 +20,7 @@ cpm:	equ not marc	;true if CPM version
 
 	if not zsystem
 version: equ '6'	;the 'x' in 'v1.x'
-updatn:	equ 0		;the `y' in `v1.xy'	 (number)
+updatn:	equ 1		;the `y' in `v1.xy'	 (number)
 updaty:	equ 0		;the `z' in `v1.xyz', or zero if none (character)
 	endif
 

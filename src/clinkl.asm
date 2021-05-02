@@ -18,7 +18,7 @@ testing3: equ 0		;enables fcbs printout diagnostic for obscure debugging
 
 MARC:	equ false	;true if MARC version
 CPM:	equ true	;true for CP/M version
-ZSYS:	equ true	;true if assembling for Z-SYSTEMS version
+ZSYS:	equ false	;true if assembling for Z-SYSTEMS version
 alpha:	equ false	;true for Alpha-C
 
 	IF NOT CPM

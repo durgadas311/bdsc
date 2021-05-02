@@ -38,7 +38,7 @@ defusr: db 0ffh		;default library user area
 
 defsub:	db 00h		;default disk to find submit file on
 conpol:	db 1		;true to poll the console for interrupts
-wboote:	db 0		;true to always do warm-boot on exit
+wboote:	db 1		;true to always do warm-boot on exit
 ;zenvf:	ds 1		;true if Z environment
 ;			;new for v1.51:
 pstrip: db 1		;true to strip parity when reading source file

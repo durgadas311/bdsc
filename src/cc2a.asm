@@ -44,7 +44,7 @@ maxmd:	db 0		;maxmem done flag, under MARC
 	ENDIF
 
 	IF CPM
-ccpok:	db 1		;CCP still intact flag, under CP/M (10Eh)
+ccpok:	db 0100b	;CCP still intact flag, under CP/M (10Eh)
 	ENDIF
 
 	IF CPM
