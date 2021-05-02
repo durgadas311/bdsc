@@ -1489,4 +1489,3 @@ noabrt:	pop psw
 	IF LASM
 	link cc2b
 	ENDIF
-

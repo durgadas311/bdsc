@@ -1742,4 +1742,3 @@ tab1:	equ $		;reference table begins here
 	IF LASM
 	end
 	ENDIF
-

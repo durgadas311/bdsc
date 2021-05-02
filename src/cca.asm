@@ -1788,4 +1788,3 @@ scnt:	call cklev
 	IF LASM
 	link ccb
 	ENDIF
-

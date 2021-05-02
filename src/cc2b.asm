@@ -2858,4 +2858,3 @@ fcn2a:	lda sval1	;info2 is rel lv. bummer. push info1
 	link cc2c
 	ENDIF
 
-

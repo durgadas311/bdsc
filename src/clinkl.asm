@@ -116,4 +116,3 @@ msys:	  equ 50h
 
 
 	link clinka
-
